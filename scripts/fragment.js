@@ -10,16 +10,7 @@ const execute = async () => {
             outDir: './hues-a339x-vre/out/build-modules',
             modules: [{
                 name: 'D-ANRC',
-                sourceDir: './SimObjects/Airplanes/HWD-A339_CFG_ANRC'
-            }, {
-                name: 'D-ANRL',
-                sourceDir: './SimObjects/Airplanes/HWD-A339_CFG_ANRL'
-            }, {
-                name: 'D-ANRM',
-                sourceDir: './SimObjects/Airplanes/HWD-A339_CFG_ANRM'
-            }, {
-                name: 'D-ANRT',
-                sourceDir: './SimObjects/Airplanes/HWD-A339_CFG_ANRT'
+                sourceDir: './SimObjects/Airplanes/HWD-A339_VRE_TU-TRG'
             }]
         });
         console.log(result);
